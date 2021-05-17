@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+
+  .redes{
+    height: 550px;
+    position: relative;
+  }
+
+  .main_button{
+    width: auto;
+  }
+
+}
+
+@media screen and (max-width: 1366px) {
+  .redes{
+    height: 550px;
+    position: relative;;
+  }
+
+  .main_button{
+    width: auto;
+  }
+
+  nav{
+    width: 100;
+  }
+
+}

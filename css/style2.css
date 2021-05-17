@@ -1,0 +1,127 @@
+/* Mí (｡●‿●｡) CSS básico <:-) */
+
+html,body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-family: Graphik;
+}
+
+nav{
+  display: flex;
+  background-color: white;
+  padding: 0px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding: 10px;
+  list-style: none;
+}
+
+nav li a{
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: black;
+}
+
+footer{
+  display: block;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+}
+
+/* --------------- Main section */
+.container{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  align-items: center;
+}
+
+.imagen_yo{
+  background-image: url("../images/quiensoy_09.jpg");
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+  padding: 30px;
+}
+
+.content{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_2{
+  padding: 10px;
+  text-align: center;
+  position: center;
+}
+
+.imagen_logo2{
+  background-image: url("../images/logo2.png");
+  background-repeat: no-repeat;
+  height: 370px;
+  padding: 10px;
+  margin: 10px;
+  position: center;
+}
+
+.texto_princi{
+padding: 10px;
+}
+
+.texto_principal{
+  width: auto;
+  position: center;
+  text-align: center;
+}
+
+.texto_si{
+  padding: 10px;
+}
+
+.texto_soy{
+  width: auto;
+  position: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+.texto_objetivo{
+  padding: 10px;
+}
+
+.texto_objetivo_pro{
+  width: auto;
+  position: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+.contenedor_video{
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.video_yt{
+  padding: 10px;
+}
+/* -------- Second section */
+
+
+/* ------- Third section */

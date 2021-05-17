@@ -1,0 +1,76 @@
+/* Mí (｡●‿●｡) CSS básico <:-) */
+
+html,body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-family: Graphik;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  background-color: white;
+  padding: 0px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding: 10px;
+  list-style: none;
+}
+
+nav li a{
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: black;
+}
+
+footer{
+  display: block;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+}
+
+
+/* --------------- Main section */
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* -------- Second section */
+
+
+/* ------- Third section */

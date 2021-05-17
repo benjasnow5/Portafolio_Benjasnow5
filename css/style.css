@@ -1,0 +1,198 @@
+/* Mí (｡●‿●｡) CSS básico <:-) */
+
+html,body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-family: Graphik;
+}
+
+nav{
+  display: flex;
+  background-color: white;
+  padding: 0px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding: 10px;
+  list-style: none;
+}
+
+nav li a{
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: black;
+}
+
+footer{
+  display: block;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+}
+
+/* --------------- Main section */
+
+.logo{
+
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+
+.main_section{
+  text-align: center;
+}
+
+.sub_texto{
+  text-align: center;
+}
+
+.button_container{
+  padding: 10px;
+  text-align: center;
+}
+
+.main_button{
+  text-align: center;
+  background-color: #0400ff;
+  width: 10%;
+  padding: 20px;
+  font-size: 17px;
+  color: white;
+  border:0;
+  cursor: pointer;
+  border-radius: 45px;
+}
+
+.main_button:hover{
+  background-color: #110f94;
+
+}
+
+/* -------- Second section */
+
+.redescontend{
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.redes{
+  height: 400px;
+  background-image: url("../images/rectangulo.png");
+  background-size: cover;
+  background-position: center top;
+  padding: 10px;
+  display: block;
+}
+
+.introduccion{
+  width: cover;
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+}
+
+.textointroduccion{
+color: white;
+}
+
+.redesboton{
+  text-align: center;
+  padding: 50px;
+  width: cover;
+  display: block;
+
+}
+
+.Facebook:hover{
+  background-color: #110f94;
+  color: white;
+}
+
+.Facebook{
+  background-color: white;
+  padding: 20px;
+  font-size: 17px;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.Instagram:hover{
+  background-color: #110f94;
+  color: white;
+}
+
+.Instagram{
+  background-color: white;
+  padding: 20px;
+  font-size: 17px;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.Youtube:hover{
+  background-color: #110f94;
+  color: white;
+}
+
+.Youtube{
+  background-color: white;
+  padding: 20px;
+  font-size: 17px;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.copy{
+  color: black;
+}
+
+/* ------- Third section */
+
+.third_section{
+  text-align: center;
+  padding: 10px;
+}
+
+.button_contacto{
+  padding: 10px;
+  text-align: center;
+}
+
+.contacto_botton{
+  text-align: center;
+  background-color: #0400ff;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  font-size: 17px;
+  color: white;
+  border:0;
+  cursor: pointer;
+  border-radius: 45px;
+}
+
+.contacto_botton:hover{
+  background-color: #110f94;
+  color: white;
+}
